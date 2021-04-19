@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title></title>
+</head>
+<body>
+    <div class="admin"></div>
+
+</body>
+<script>
+    // If clearance is 3 or higher, user is authorized
+    let clearance = 1;
+    let authorized = (clearance >= 3) ? true : false;
+
+    if (authorized) {
+        console.log('This user has a high enough clearance level');
+    } else {
+        console.log('This user is not authorized')
+    }
+</script>
+</html>
